@@ -5,7 +5,7 @@
 #ZeroDivisonError occurs when denom is zero
 #KeyboardInterrupt error occurs when user presses ctrl+c
 
-"""try:
+try:
     x=input("write")
     print("alright")
 except KeyboardInterrupt:
@@ -13,13 +13,12 @@ except KeyboardInterrupt:
 finally:     # this block is always executed
     print("yoyo")"""
 
-"""a,b=map(int,input("enter numbers").split())
+a,b=map(int,input("enter numbers").split())
 try:
     quo=a/b
     print(quo)
 except ZeroDivisionError:
-    print("division with zero not possible")"""
-"""
+    print("division with zero not possible")
 try:
     a,b=map(int,input("enter numbers").split())
     print(a+var)#name error
@@ -33,8 +32,8 @@ except NameError:
     print("name error")
 except:
     print("Program Terminating..") #when no exception matches with  the prg generated exception, this block is executed
-"""
-"""
+
+
 try:
     a,b=map(int,input("enter numbers").split())
     quo=a/b
@@ -43,7 +42,7 @@ except ZeroDivisionError:
     print("division with zero not possible")    
 else:
     print("okay")  #if there is no exception this block is executed
-"""
+
 
  
    
